@@ -1,0 +1,5 @@
+<view class='container' style="background-image:url('{{img}}')">
+  <scroll-view scroll-x class='scroll-control'>
+      <image wx:for='{{immgArray}}' src='{{item.img}}' class='header-img' bindtap='imgClick' id='{{index}}' mode='aspectFill'></image>
+  </scroll-view>
+</view>
